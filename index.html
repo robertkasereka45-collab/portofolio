@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robert Wikere | Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Robert Wikere</h1>
+    <p>Informaticien - Spécialiste en maintenance & développement Web, Mobile & Desktop</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis un informaticien passionné, spécialisé en maintenance informatique, développement web, mobile (Flutter) et desktop. J’utilise HTML, CSS, JavaScript, PHP, MySQL, etc.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Flutter (Mobile/Desktop)</li>
+      <li>PHP & MySQL</li>
+      <li>Maintenance informatique</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Robert Wikere. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
